@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+<title>Palak Verma - Exam 2</title>
+    <link rel="stylesheet" type="text/css" href="styles/Exam2problem.css" />
+    <script src="js/Exam2problem.js"></script>
+<body>
+<h1>Exam 2 - Palak Verma</h1>
+    <hr>
+    <select onchange="MenuChoice()" id="menu">
+    <option>Select an option</option>
+    <option>Display Category List</option>
+    <option>Add Product Category</option>
+    <option>Change Category Description</option>
+    <option>Delete a Category</option>
+    <option>About</option>
+    </select>
+    <br>
+    <br>
+    
+    </section>
+    <section id="section1" class="section1">
+    <button onclick="GetCategory()" id="category">Display Category List</button>
+    <br>
+    <br>
+    <label id="categorydisplay"></label>
+    <br>
+    </section>
+    
+    <section id="section2" class="section2">
+    <label>Please enter the Category Name: </label>
+    <input type="text" id="catname">
+    <br>
+    <label>Please enter the Category Description: </label>
+    <input type="text" id="catdesc">
+    <br>
+    <br>
+    <button onclick="CreateCategory()" id="newcat">Add New Category</button>
+    <br>
+    <hr>
+    <br>
+    <label id="catresult"></label>
+    </section>
+
+    <section id="section3" class="section3">
+    <label>Please Enter a Category ID: </label>
+    <input type="text" id="cid">
+    <br>
+    <label>Please enter the new Category Description: </label>
+    <input type="text" id="cdesc">
+    <br>
+    <br>
+    <button onclick="ChangeDesc()" id="changedesc">Change Category Description</button>
+    <br>
+    <hr>
+    <br>
+    <label id="descresult"></label>
+    </section>
+
+    <section id="section4" class="section4">
+    <label>Please enter a Category ID: </label>
+    <input type="text" id="cid2">
+    <br>
+    <label class="example">The category ID should be a known index number</label>
+    <br>
+    <button onclick="DeleteCategory()" id="deletecat">Delete Category</button>
+    <br>
+    <br>
+    <label id="deleteresult"></label>
+    <br>        
+    </section>
+    
+    <section id="section5" class="section5">
+    <h2>Palak Verma</h2>
+    <h3>Testimonial</h3>
+    <p id="testimonial">IS633 was a great class! I started the class being very intimidated by coding; but also equally eager to make my own app. This class has now equipped me with the skills and confidence to build an app from scratch.</p>
+    <br>        
+    </section>
+    
+</body>
+</html>

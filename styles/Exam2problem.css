@@ -1,0 +1,12 @@
+h1 {font-family: sans-serif; font-size: large; text-align: center;}
+h2 {font-family: sans-serif;}
+section.section1 {position: absolute; width: 600px; visibility: hidden;}
+section.section2 {position: absolute; width: 600px; visibility: hidden;}
+section.section3 {position: absolute; width: 600px; visibility: hidden;}
+section.section4 {position: absolute; width: 600px; visibility: hidden;}
+section.section5 {position: absolute; width: 600px; visibility: hidden;}
+table, th, td {border: 1px solid black; border-collapse: collapse;}
+#testimonial {font-family: sans-serif;}
+th,td {padding: 5px;}
+th {background-color: #ADD8E6; color: white;}
+.example {font-style: italic; color: red; }
